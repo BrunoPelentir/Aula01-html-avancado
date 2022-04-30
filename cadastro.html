@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .container{
+        width: 800px;
+        margin: auto;
+        
+    }
+    input{
+        width: 100%;
+        padding: 8px 5px 8px 5px;
+        border-radius: 5px;
+        margin: 7px;
+    }
+    input:focus{
+        background-color: rgb(217, 221, 240);
+
+    }
+    button{
+        width: 100px;
+        border-radius: 5px;
+        font-size:large;
+        border-color: rgb(0, 0, 0);
+        background-color: rgb(206, 68, 183);
+        color: rgb(0, 0, 0);
+        border: 2px solid black;
+        padding: 5px;
+
+
+    }
+    .salvar:hover{
+        background-color: rgb(88, 8, 8);
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(0, 0, 0);
+    }
+    .cancelar:hover{
+        background-color: rgb(75, 8, 8);
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(0, 0, 0);
+    }
+    .botoes{
+        display: flex;
+        justify-content: space-between;
+    }
+   
+    
+</style>
+    
+</head>
+
+<body>
+    <div class="container">
+        
+        <label for="nome" >Nome</label>
+        <input id="nome" type="text" placeholder="Informe seu nome" />
+
+        <label>Email</label>
+        <input type="text" placeholder="Informe seu email" />
+
+        <label>Telefone</label>
+        <input type="text" placeholder="Informe seu Telefone" />
+
+        <label>Endereço</label>
+        <input type="text" placeholder="Informe seu Endereço" />
+         
+        <div class="botoes">
+            <button class="salvar">Salvar</button>
+        <button class="cancelar">Cancelar</button>
+        </div>
+        
+        
+    </div>
+   
+    
+    
+</body>
+</html>
